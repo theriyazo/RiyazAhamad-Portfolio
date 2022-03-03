@@ -1,0 +1,11 @@
+#confetti {
+  z-index: +5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.hide-confetti {
+  display: none;
+}

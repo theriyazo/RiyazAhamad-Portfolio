@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    background-color: #E0B6B3;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    height: 100vh;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+.error404{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: myFont,Poppins;
+}
+.Lost404{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 7vw;
+
+}
+.direction{
+    position: absolute;
+    top: -15vh;
+    left: 65vw;
+}
+#directionUp{
+    width: 25vw;
+
+}
+
+
+
+@media screen and (max-width:820px) {
+    
+    .Lost404{
+        font-size: 6.5vw;
+    
+    }
+    .direction{
+        top: -22vh;
+        left: 57vw;
+    }
+    #directionUp{
+        width: 35vw;
+    
+    }
+}
+@media screen and (max-width:620px) {
+    
+    .Lost404{
+        font-size: 6vw;
+    
+    }
+    .direction{
+        top: -22vh;
+        left: 47vw;
+    }
+    #directionUp{
+        width: 40vw;
+    
+    }
+}
+@media screen and (max-width:500px) {
+    
+    .Lost404{
+        font-size: 15vw;
+    
+    }
+    .direction{
+        top: -4vh;
+        left: 33vw;
+    }
+    #directionUp{
+        width: 65vw;
+    
+    }
+}
+
+
+
+

@@ -1,0 +1,286 @@
+
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/TTHoves-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/TTHoves-Medium.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/TTHoves-DemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/fonts/TTHoves-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+
+  /* Selection Background for All pages */
+::-moz-selection { /* Code for Firefox */
+background: #93E993;
+}
+
+::selection {
+background: #93E993;
+
+}
+
+/* Selection Properties for Footer */
+
+footer ::-moz-selection {
+    /* Code for Firefox */
+    background: #FFFFFF;
+    color: #2C982C;
+  }
+  
+  footer ::selection {
+    background: #FFFFFF;
+    color: #2C982C;
+  }
+
+.riyazahamad{
+    color: #FFFFFF;
+    opacity: 100%;
+}
+.riyazahamad:hover{
+    color:#2C982C;
+}
+.titleRiyazahamad{
+    color: #FFFFFF;
+
+}
+.titleRiyazahamad:hover{
+    color:#2C982C;
+}
+
+
+/* Footer */
+footer{
+    background-color: #82E89C;
+    width: 100%;
+    height: 11.2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 3em 0 3em;
+
+}
+
+.footerLeft{
+    display: flex;
+    align-items: center;
+    
+}
+#doubleTick{
+    padding-right: 0.3em;
+}
+.footerText{
+    color: #FFFFFF;
+    font-family: myFont;
+    font-weight: 400;
+}
+.theriyazo{
+    /* color: #707070; */
+    color: #FFFFFF;
+    opacity: 80%;
+}
+.contactlinks{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6em 1.5em 0;
+    padding-top: 0.6em;
+    /* width: 68%; */
+}
+.socialIcons{
+    width: 3.7em;
+    opacity: 65%;
+}
+.socialIcons:hover{
+    opacity: 100%;
+}
+
+.End{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 0 0; */
+    /* margin-top: 3%; */
+}
+#end{
+    width: 2em;
+    opacity: 0.3;
+}
+#lightColor{
+    color: #FFFFFF;
+    opacity: 80%;
+}
+#darkColor{
+    color: #FFFFFF;
+    opacity: 100%;
+}
+
+
+@media screen and (max-width:880px) {
+    footer{
+        height: 13.5em;
+
+    }
+} 
+
+@media screen and (max-width:768px) {
+
+    /* Hide Overflow */
+    /* body{
+        overflow-x:hidden;
+    }  */
+
+    footer{
+        height: 12.5em;
+    }
+    .footerContainer{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-top: 1.5em;
+    }
+
+    #doubleTick{
+        display: none;
+    }
+    .footerText{
+        color: #FFFFFF;
+    }
+
+
+    #topFooter{
+        font-size: 0.95em;
+        margin: auto;
+
+    
+    }
+    .footerText{
+        margin-left: 0;
+    }
+    #middleFooter{
+        margin: auto;
+        
+    }
+    .contactlinks{
+        padding: 0;
+        padding-top: 0.6em;
+        width: 90%;
+
+    }
+    #bottomFooter{
+        padding-top: 2em;
+        font-size: 9px;
+        text-align: center;
+        position: unset;
+        transform: none;
+
+    }
+    #end{
+        padding-top: 0.5em;
+        margin: 0 auto 0 auto;
+        width: 5vw;
+        padding-bottom: 0;
+    }
+
+
+
+    .socialIcons{
+        width: 9vw;
+    }
+
+    /* #lightColor{
+        color: #FFFFFF;
+        opacity: 80%;
+    }
+    #darkColor{
+        color: #FFFFFF;
+        opacity: 100%;
+    } */
+    #lightColor{
+        color: #094b00;
+        opacity: 0.5;
+    }
+    #darkColor{
+        color: #0b5800;
+        opacity: 0.8;
+    }
+    .riyazahamad{
+        color: #0b5800;
+        opacity: 100%;
+    }
+    .riyazahamad:hover{
+        color:#2C982C;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:432px) {
+    footer{
+        height: 11.5em;
+    }
+    .footerContainer{
+        padding-top: 1em;
+    }
+    #topFooter{
+        font-size: 0.95em;
+        margin: auto;
+    }
+    .footerText{
+        margin-left: 0;
+    }
+    #bottomFooter{
+        padding-top: 0.5em;
+        font-size: 0.6em;
+    }
+
+    .socialIcons{
+        width: 13.5vw;
+        opacity: 1;
+    }
+    #lightColor{
+        color: #094b00;
+        opacity: 0.5;
+    }
+    #darkColor{
+        color: #0b5800;
+        opacity: 0.8;
+    }
+    .riyazahamad{
+        color: #0b5800;
+        opacity: 100%;
+    }
+    .riyazahamad:hover{
+        color:#2C982C;
+    }
+    
+
+  }

@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+  color: #fdfdfd;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.hi {
+  text-align: center;
+  line-height: 3.9em;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.HiThr {
+  color: #353457;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  letter-spacing: 0.05rem;
+}
+.RiyazAhamad {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  letter-spacing: 0.15rem;
+
+  /* or 127% */
+  text-align: center;
+  color: #65d465;
+}
+.wavingHand {
+  pointer-events: none;
+  position: relative;
+  bottom: 0.8em;
+  width: 8.8rem;
+  margin-bottom: -8em;
+  /* border-bottom: 13px; */
+}
+.underLine {
+  width: 29rem;
+  position: relative;
+  top: -0.5em;
+}
+
+.greetings {
+  display: flex;
+  justify-content: center;
+  margin: 13% auto 7em;
+  padding-right: 3.7vw;
+}
+
+.bold {
+  font-weight: 500;
+}
+.about-RiyazAhamad {
+  font-family: myFont;
+  /* Arial, Helvetica, sans-serif */
+  color: #353457;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.4vw;
+  width: 45%;
+  line-height: 1.5em;
+  margin: 0 auto 2em;
+  padding-left: 2.5vw;
+}
+.FrontPage {
+  align-items: center;
+  margin: auto;
+}
+
+/* Work Section Styles Here */
+
+.workScroll {
+  color: #c2c1d9;
+  /* background: -webkit-linear-gradient(120deg, #b8ecbb, #F1F9F4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+.down-arrow {
+  width: 4.5%;
+  margin: 3.4%;
+  text-align: center;
+}
+.Work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.swiggleLine {
+  display: none;
+}
+.project1,
+.project3,
+.project2 {
+  width: 89vw;
+  height: 28rem;
+  position: relative;
+  margin-bottom: 5em;
+  border-radius: 4.9em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MyFont {
+  font-family: myFont, Arial, Helvetica, sans-serif;
+  color: #353457;
+  font-size: 3.8vw;
+  letter-spacing: 0.03em;
+  margin-bottom: 2vh;
+}
+.project-desc {
+  font-family: myFont, Arial, Helvetica, sans-serif;
+  font-size: 1.35em;
+  margin-bottom: 2.5em;
+  color: #353457;
+  line-height: 140%;
+}
+.workContent-Left {
+  margin-left: 3%;
+  width: 47%;
+}
+.project-snapContainer {
+    pointer-events: none;
+  width: 33em;
+  margin-right: 3%;
+  padding: 0.5vw;
+}
+
+.project1 {
+  margin-top: 5em;
+  background-color: #e7f8e7;
+  box-shadow: 0px 4px 89px #e7f8e7;
+}
+.project2 {
+  background-color: #e7f8f4;
+  box-shadow: 0px 4px 89px #e7f8f4;
+}
+.project3 {
+  background-color: #f8f1e7;
+  box-shadow: 0px 4px 89px #f8f1e7;
+}
+/* 1st work button hover animation */
+
+.project1-button {
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.9em;
+  padding: 0.3em 0.85em;
+  margin-right: 2.5vw;
+  background-color: #93e993;
+  box-shadow: 2px 6px 25px rgba(147, 233, 147, 0.7);
+  transition: ease-out 0.5s;
+  color: #ffffff;
+}
+.project1-button:hover {
+  box-shadow: inset 6.9em 0 0 0 #ffffff;
+  cursor: pointer;
+  color: #93e993;
+}
+.project1-button:hover .moreIcon2 {
+  display: none;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+/* 2nd work button hover animation */
+.project2-button {
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5vw;
+  width: 6.9em;
+  padding: 0.3em 0.85em;
+  background-color: #a5e8ce;
+  box-shadow: 2px 6px 25px rgba(165, 232, 206, 0.7);
+  transition: ease-out 0.5s;
+  color: #ffffff;
+}
+.project2-button:hover {
+  box-shadow: inset 6.9em 0 0 0 #ffffff;
+  cursor: pointer;
+  color: #89ceb3;
+}
+.project2-button:hover .moreIcon2 {
+  display: none;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+.project1-btn,
+.Portfolio-btn,
+.project3-btn {
+  display: flex;
+}
+
+/* 3rd work button hover animation */
+.project3-button {
+  border-radius: 1em;
+  background-color: #f6977d;
+  display: flex;
+  justify-content: center;
+  width: 6.9em;
+  margin-right: 2.5vw;
+  padding: 0.3em 0.85em;
+  color: #ffffff;
+  box-shadow: 2px 6px 25px rgba(246, 151, 125, 0.7);
+  transition: ease-out 0.5s;
+  color: #ffffff;
+}
+.project3-button:hover {
+  box-shadow: inset 6.9em 0 0 0 #ffffff;
+  cursor: pointer;
+  color: #f6977d;
+}
+.project3-button:hover .moreIcon2 {
+  display: none;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
+}
+
+/* More button Icon */
+
+.moreIcon2 {
+  width: 20.5%;
+  height: auto;
+  margin-left: 0.4em;
+}
+
+button {
+  border: none;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 1em;
+}
+/* Footer */
+
+@media screen and (max-width: 1108px) {
+  .about-RiyazAhamad {
+    font-size: 1.1em;
+  }
+
+  .workContent-Left {
+    margin-left: 3em;
+  }
+  .MyFont {
+    font-size: 4vw;
+    letter-spacing: 0.03em;
+    margin-bottom: 1vh;
+  }
+  .project-desc {
+    font-size: 1em;
+    margin-bottom: 2.5em;
+    padding-right: 1em;
+    line-height: 140%;
+  }
+  .project1,
+  .project3,
+  .project2 {
+    width: 89vw;
+    height: 23rem;
+    margin-bottom: 10em;
+    border-radius: 4em;
+  }
+  .project-snapContainer {
+    width: 41vw;
+    margin-right: 6%;
+    padding: 0.5vw;
+  }
+  .project1-button,
+  .project3-button,
+  .project2-button {
+    width: 6.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hi {
+    line-height: 6vw;
+  }
+  .HiThr,
+  .RiyazAhamad {
+    font-size: 5vw;
+  }
+  .RiyazAhamad {
+    letter-spacing: 0.05em;
+  }
+  .wavingHand {
+    position: relative;
+    bottom: 0;
+    width: 12.5vw;
+    margin: auto 0.3em 2vw auto;
+  }
+  .underLine {
+    width: 41.5vw;
+    top: -0.2em;
+  }
+  .greetings {
+    margin: 35% auto 15%;
+    padding-right: 0;
+  }
+  .about-RiyazAhamad {
+    font-size: 3vw;
+    width: 67%;
+    line-height: 1.3em;
+    margin: 0 auto 23vh;
+  }
+
+  .down-arrow {
+    width: 9vw;
+    margin: 3.4%;
+  }
+
+  /* Work - Work - Work - Work - Work - Work - Work - Work - Work - Work - Work - Work -  */
+  #worksection {
+    background-color: #e7f8e7;
+  }
+  .swiggleSVG {
+    width: 100vw;
+    padding-top: 10vw;
+  }
+  #Line-1 {
+    margin-top: 27vw;
+  }
+
+  #Line-2 {
+    margin-top: 102vw;
+  }
+
+  #Line-3 {
+    margin-top: 105vw;
+  }
+
+  .swiggleLine {
+    position: absolute;
+    display: block;
+
+    /* z-index: -1; */
+  }
+  .project1,
+  .project2,
+  .project3 {
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 1px 2px 30px rgba(191, 229, 191, 0.7);
+    border: 1.8px solid #ffffff;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    width: 75vw;
+    height: 112vw;
+    margin-bottom: 10em;
+    border-radius: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* Note: backdrop-filter has minimal browser support */
+  }
+  .project1 {
+    margin-top: 10em;
+  }
+  .workContent-Left {
+    padding: 9vw;
+    width: 100%;
+  }
+
+  .MyFont {
+    font-family: myFont, Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+    letter-spacing: 0.03em;
+    text-align: center;
+    line-height: 0.7em;
+    padding-bottom: 1em;
+    margin: auto;
+    width: 43vw;
+    margin-top: 1vw;
+  }
+  .portSpan {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  .project-desc {
+    font-size: 3.5vw;
+    padding-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 125%;
+    width: 60vw;
+  }
+
+  /* Buttons - Buttons - Buttons - Buttons */
+  .project1-btn {
+    margin-top: 63vw;
+    justify-content: space-around;
+  }
+
+  .Portfolio-btn,
+  .project3-btn {
+    margin-right: 0;
+    justify-content: space-around;
+  }
+
+  .Portfolio-btn {
+    margin-top: 53vw;
+  }
+  .project3-btn {
+    margin-top: 58vw;
+  }
+
+  .project1-button,
+  .project3-button,
+  .project2-button {
+    width: 6.5em;
+    font-size: 3.1vw;
+    text-align: center;
+    align-items: center;
+  }
+  .project2-button,
+  .project3-button {
+    margin: 0;
+    background-color: #93e993;
+    box-shadow: 2px 6px 25px rgba(147, 233, 147, 0.7);
+    transition: ease-out 0.5s;
+    color: #ffffff;
+  }
+  .project2-button:hover,
+  .project3-button:hover {
+    box-shadow: inset 6.5em 0 0 0 #ffffff;
+    cursor: pointer;
+    color: #93e993;
+  }
+
+  .project1-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .workContent-Left {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .project-snapContainer {
+    width: 66vw;
+    margin: 110px 0 0 0;
+  }
+  .centerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 432px) {
+  .hi {
+    line-height: 7vw;
+  }
+  .HiThr,
+  .RiyazAhamad {
+    font-size: 6.5vw;
+  }
+  .wavingHand {
+    width: 15.6vw;
+    margin: auto;
+  }
+  .underLine {
+    width: 54.5vw;
+  }
+  .greetings {
+    margin: 45% auto 15%;
+    padding: 0 6vw 0 0;
+  }
+  .about-RiyazAhamad {
+    font-size: 4vw;
+    width: 90%;
+    line-height: 1.3em;
+    margin: 0 auto 20vh;
+    padding: 0;
+  }
+
+  .down-arrow {
+    width: 3.4em;
+    margin-top: 0%;
+  }
+  .workScroll {
+    margin-bottom: 13.5em;
+  }
+
+  .project1-button,
+  .project3-button,
+  .project2-button {
+    width: 6.5em;
+    font-size: 3.3vw;
+  }
+  #Line-1 {
+    margin-top: 9em;
+  }
+
+  #Line-2 {
+    margin-top: 29em;
+  }
+
+  #Line-3 {
+    margin-top: 29em;
+  }
+}
+
+/* .nav-active{
+    transform: translate(0%);
+    
+}
+
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+    
+} */
+
+/* a{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    /* left: 4.9%;
+    right: 86.2%;
+    top: 2.5em;
+    bottom: 95.15%;
+
+}*/
+
+/* .Work{
+    background-color: aquamarine;
+
+} */

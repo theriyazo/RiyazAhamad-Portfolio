@@ -1,0 +1,140 @@
+
+
+
+    /* Selection Background for All pages */
+::-moz-selection { /* Code for Firefox */
+    color: #FFFFFF;
+}
+
+::selection {
+    color: #FFFFFF;
+
+}
+
+
+
+.bgGradi{
+    position: absolute;
+    top: -1vh;
+}
+#gradient1{
+    position: absolute;
+    width: 80vw;
+    top: -40vh;
+}
+#gradient2{
+    position: absolute;
+    width: 30vw;
+    left: 69.9vw;
+}
+.FlexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12% auto 5%;
+}
+#test-tube{
+    width: 3vw;
+    padding-bottom: 1vh;
+}
+#opening, .endDescription{
+    font-family: myFont, Poppins, serif;
+
+
+}
+#opening{
+    color: #313053;
+    font-size: 1.8vw;
+    opacity: 0.85;
+
+
+}
+#middle{
+    font-family: Poppins, serif;
+    color: #0F48DF;
+    font-size: 4vw;
+    padding-bottom: 0.5vh;
+    z-index: +5;
+
+
+
+}
+.endDescription{
+    color: #5B5A7D;
+    font-size: 2vw;
+    opacity: 0.75;
+
+
+}
+@media screen and (max-width:768px) {
+
+    #gradient1{
+        width: 80vw;
+        top: -40vh;
+    }
+    #gradient2{
+        width: 30vw;
+        left: 69.9vw;
+        top: -10vh;
+
+    }
+    .FlexCenter{
+      
+        margin: 25vh auto 25vh;
+    }
+    #test-tube{
+        width: 1.5em;
+    }
+    
+    #opening{
+        font-size: 1.2em;
+    
+    }
+    #middle{
+        
+        font-size: 2.5em;
+    
+    
+    }
+    .endDescription{
+        font-size: 1.5em;
+    
+    
+    }
+}
+@media screen and (max-width:501px) {
+
+    #gradient1{
+        width: 80vw;
+        top: -40vh;
+    }
+    #gradient2{
+        width: 50vw;
+        top: -20vh;
+        left: 50vw;
+    }
+    .FlexCenter{
+      
+        margin: 25vh auto 10vh;
+    }
+    #test-tube{
+        width: 1.5em;
+    }
+    
+    #opening{
+        font-size: 1em;
+    
+    }
+    #middle{
+        
+        font-size: 2em;
+    
+    
+    }
+    .endDescription{
+        font-size: 1em;
+    
+    
+    }
+}

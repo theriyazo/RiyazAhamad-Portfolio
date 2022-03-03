@@ -1,0 +1,22 @@
+{
+    "background_color": "purple",
+    "description": "RiyazAhamad is a software developer and UI/UX designer. He is also known as theriyazo. You can connect with him & learn more about his portfolio here.",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "/assets/icons/theriyazoIcon192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/theriyazoIcon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "name": "RiyazAhamad Portfolio",
+    "short_name": "RiyazAhamad",
+    "start_url": "/index.html",
+    "theme_color": "#9EE49E"
+  }
